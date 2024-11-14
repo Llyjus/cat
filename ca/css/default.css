@@ -1,0 +1,41 @@
+header{
+    background-image: ;
+}
+
+h1{
+    background-color: rgba(255, 255, 255, 50);
+    font-size: 108px;
+    text-align: center;
+    padding: 2em 2em;
+}
+
+nav{
+    display:block;
+}
+
+#nav{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'intr cate hob';
+    text-align: center;
+    background-color: lightcyan
+}
+
+nav p{
+    padding: 2em 2em;
+    border:5px solid pink;
+    box-shadow:10px 5px 20px burlywood ;
+}
+#intr{
+    grid-area: 'intr';
+}
+
+#cate{
+    grid-area: 'cate';
+}
+
+#hob{
+    grid-area: 'hob';
+}
+
+
