@@ -1,0 +1,70 @@
+html{
+    background-color: lightcyan;
+}
+
+
+body{
+    margin:auto 2em
+}
+
+#head{
+    background-image: ;
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+
+#checkbox{
+    display: none;
+}
+
+#checkbox:checked ~ #topic{
+    display:none;
+}
+
+label{
+    display: block;
+    background-color: rgb(217, 248, 230) ;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+main{
+    margin:1em 1em;
+    border:solid 10px rgb(243, 211, 255);
+    padding: 2em 1em;
+    text-align: center;
+}
+
+
+
+h1{
+    background-color: rgba(255, 255, 255, 50);
+    font-size: 108px;
+    text-align: center;
+    padding: 3em 0;
+    margin-bottom: 5px;
+    display: block;
+}
+
+nav{
+    display:block;
+    margin: 2em 1em;
+}
+
+nav a{
+    padding: 1em 1em;
+    border:10px solid pink;
+    box-shadow:10px 5px 20px burlywood ;
+    background-color: rgb(234, 255, 204);
+    border-radius: 72px;
+    margin: 0.5em;
+}
+
+#footer{
+    text-align: end;
+    font-size:12px;
+}

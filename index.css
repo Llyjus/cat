@@ -1,0 +1,74 @@
+@media screen and (min-width:1200px){
+
+    :root{
+        font-size: 36px;
+    }
+
+    #nav{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 'intr cate hob';
+        text-align: center;
+        background-color: lightcyan;
+        margin-top: 0;
+        
+    }
+
+    #intr{
+        grid-area: 'intr';
+    }
+    
+    #cate{
+        grid-area: 'cate';
+    }
+    
+    #hob{
+        grid-area: 'hob';
+    }
+    
+}
+
+@media screen and (max-width:1200px) and (min-width:800px){
+
+    :root{
+        font-size: 24px;
+    }
+
+    #nav{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'intr cate hob';
+    text-align: center;
+    background-color: lightcyan;
+    margin-top: 0;
+    }
+
+    #intr{
+        grid-area: 'intr';
+    }
+    
+    #cate{
+        grid-area: 'cate';
+    }
+    
+    #hob{
+        grid-area: 'hob';
+    }
+}
+
+@media screen and (max-width:800px){
+
+    :root{
+        font-size: 16px;
+    }
+
+    nav{
+        text-align: center;
+    }
+
+    #nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
